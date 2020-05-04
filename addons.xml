@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="ch.repo" name="CH Repository" version="0.1.0" provider-name="Christian Haitian">
+    <addon id="ch.repo" name="CH Repository" version="1.0" provider-name="Christian Haitian">
         <extension point="xbmc.addon.repository" name="CH Repository">
             <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml.md5</checksum>
@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.9" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.2" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -76,3 +76,4 @@ Add-on by doko/Christian_Haitian.
             <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers. This add-on only scrapes web pages.</disclaimer>
         </extension>
     </addon>
+</addons>
