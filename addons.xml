@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="doko.repository" name="CH Repository" version="0.1.0" provider-name="Christian Haitian">
+    <addon id="ch.repo" name="CH Repository" version="0.1.0" provider-name="Christian Haitian">
         <extension point="xbmc.addon.repository" name="CH Repository">
             <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Doko Kodi Add-ons</summary>
+            <summary>CH Kodi Add-ons</summary>
             <description>Add-ons for Kodi</description>
             <disclaimer></disclaimer>
             <platform>all</platform>
