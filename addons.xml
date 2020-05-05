@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.2" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.3" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,7 +27,10 @@
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
 
-[B]0.4.8.2[/B]
+[B]0.4.8.3:[/B]
+- Added the ability to use the addon whether a premium user or a free user.
+                
+[B]0.4.8.2:[/B]
 - Added cookie age check and delete and recreate if over 24 hours old.
 
 [B]0.4.8.1[/B]
