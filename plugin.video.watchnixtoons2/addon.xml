@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.3" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.4" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests"/>
@@ -10,6 +10,9 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.4.8.4[/B]
+- Just some documentation cleanup and optimizations
 
 [B]0.4.8.3[/B]
 - Added the ability to use the addon whether a premium user or a free user.
@@ -41,27 +44,6 @@
 [B]0.4.3:[/B]
 - Fixed the series and episode search.
 
-[B]0.4.2:[/B]
-- Added a [B]Tools[/B] category to the settings. Each tool brings up a confirmation dialog
-explaining how they work, so you can read before using.
-- Tools added: Restore Watched Episodes, Update Favourites.
-- Minor fix to movie titles.
-
-[B]0.4.1:[/B]
-- Changed to a WatchCartoonOnline domain that's updated more frequently.
-- Fix for letters in episode numbers (when using the "Clean Episode Titles" option).
-
-[B]0.4.0:[/B]
-- Fix for when there's weird season ordinals in the episode titles.
-
-[B]0.3.9:[/B]
-- Fix for when there's blank lists on the mobile website.
-
-[B]0.3.8:[/B]
-- Fix for when using favorite items with the old website address.
-
-[B]0.3.7:[/B]
-- Fixed thumbnail images with the Show Information context menu.
         </news>
         <description lang="en">
 Watch cartoons and anime from [COLOR orange][B]www.TheWatchCartoonOnline.tv[/B][/COLOR].
