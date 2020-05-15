@@ -27,6 +27,9 @@
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
 
+[B]0.4.8.4[/B]
+- Just some documentation cleanup and optimizations
+                
 [B]0.4.8.3:[/B]
 - Added the ability to use the addon whether a premium user or a free user.
                 
@@ -57,17 +60,8 @@
 [B]0.4.3:[/B]
 - Fixed the series and episode search.
 
-[B]0.4.2:[/B]
-- Added a [B]Tools[/B] category to the settings. Each tool brings up a confirmation dialog
-explaining how they work, so you can read before using.
-- Tools added: Restore Watched Episodes, Update Favourites.
-- Minor fix to movie titles.
-
-[B]0.4.1:[/B]
-- Changed to a WatchCartoonOnline domain that's updated more frequently.
-- Fix for letters in episode numbers (when using the "Clean Episode Titles" option).
-            </news>
-            <description lang="en">
+        </news>
+        <description lang="en">
 Watch cartoons and anime from [COLOR orange][B]www.TheWatchCartoonOnline.tv[/B][/COLOR].
 
 Support the WatchCartoonOnline website with a PayPal donation to:
