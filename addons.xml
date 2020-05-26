@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.6" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.7" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -26,6 +26,9 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.4.8.7[/B]
+- Fix for favorites from Watchnixtoons when switching from premium to free user and vice versa so favorites do no have to be recreated each time.
 
 [B]0.4.8.6[/B]
 - Stability enhancements to premium user streaming.  Shouldn't error out as much unless the website has no playable sources.
