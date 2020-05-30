@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.7" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.8" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,10 @@
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
 
+[B]0.4.8.8[/B]
+- Added ability to automatically switch to a free stream, if available, if the premium stream is having an issue.
+- Disable the requirement to verify SSL connection to streams in case the located servers are having certificate issues.  Should fix linux clients.
+                
 [B]0.4.8.7[/B]
 - Fix for favorites from Watchnixtoons when switching from premium to free user and vice versa so favorites do no have to be recreated each time.
 
