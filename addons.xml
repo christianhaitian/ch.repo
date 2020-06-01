@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.8.9" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.9.1" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,10 @@
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
 
+[B]0.4.9.1[/B]
+- Converted from pickle to cPickle for reading and writing cookie file for premium.
+- Streamlined the code a little and cleaned up some comments
+                
 [B]0.4.8.9[/B]
 - Added error handling in cases where the premium stream link gives a connection error instead of a failed response.
 - Added a 10 second timeout for a premiumlink response so that it doesn't sit and wait for a premiumlink in case of slow response.
