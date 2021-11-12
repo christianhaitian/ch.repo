@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.9.7" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.9.8" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -26,6 +26,9 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.4.9.8[/B]
+- Fix ability to be able to resolve premium streaming links for low quality by adding headers during link testing.
 
 [B]0.4.9.7[/B]
 - Fix ability to be able to resolve premium streaming links by adding headers during link testing.
