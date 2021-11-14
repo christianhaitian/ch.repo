@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.4.9.8" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.5" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="Default.py">
         <provides>video</provides>
@@ -10,6 +11,11 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.5[/B]
+- Added Python 3 compatibility
+- Some minor peformance optimizations
+- Fixed episode title characters
 
 [B]0.4.9.8[/B]
 - Fix ability to be able to resolve premium streaming links for low quality by adding headers during link testing.
@@ -85,7 +91,10 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
-            <screenshot></screenshot>
+            <screenshot>screenshot1.jpg</screenshot>
+            <screenshot>screenshot2.png</screenshot>
+            <screenshot>screenshot3.jpg</screenshot>
+            <screenshot>screenshot4.jpg</screenshot>
         </assets>
         <description lang="en">
 Watch cartoons and anime from [COLOR orange][B]www.TheWatchCartoonOnline.tv[/B][/COLOR].
