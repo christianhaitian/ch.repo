@@ -134,7 +134,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.4" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.6" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -146,6 +146,9 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.6[/B]
+- Fixed premium streaming support by adding TLS 1.1 and TLS 1.2
 
 [B]1.4[/B]
 - Update free domain from thewatchcartoononline.tv to wcofun.com
