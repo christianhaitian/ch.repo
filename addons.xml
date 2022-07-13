@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.8" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.81" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,9 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.81[/B]
+- Fixed lastest episode show thumbnail switch in settings
 
 [B]0.8[/B]
 - Fixed thumbnail scrapes
@@ -138,7 +141,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.7" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.71" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -150,6 +153,9 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.71[/B]
+- Fixed lastest episode show thumbnail switch in settings
 
 [B]1.7[/B]
 - Fixed thumbnail scrapes

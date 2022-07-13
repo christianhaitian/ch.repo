@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.8" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.81" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests"/>
@@ -11,6 +11,9 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.81[/B]
+- Fixed lastest episode show thumbnail switch in settings
 
 [B]0.8[/B]
 - Fixed thumbnail scrapes
