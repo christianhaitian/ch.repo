@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.71" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.72" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
@@ -11,6 +11,9 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.72[/B]
+- Update to fix Cloudflare TLS issue thanks to 0.6.3 update from https://r.nf/r/Addons4Kodi/comments/sqxj50/release_watchnixtoons2_060/
 
 [B]1.71[/B]
 - Fixed lastest episode show thumbnail switch in settings
