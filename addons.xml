@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.82" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.83" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,9 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.83[/B]
+- Update to fix potential index out of range issue
 
 [B]0.82[/B]
 - Update to fix Cloudflare TLS issue thanks to 0.6.3 update from https://r.nf/r/Addons4Kodi/comments/sqxj50/release_watchnixtoons2_060/
@@ -144,7 +147,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.72" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.73" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -156,6 +159,9 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.73[/B]
+- Update to fix potential index out of range issue
 
 [B]1.72[/B]
 - Update to fix Cloudflare TLS issue thanks to 0.6.3 update from https://r.nf/r/Addons4Kodi/comments/sqxj50/release_watchnixtoons2_060/
