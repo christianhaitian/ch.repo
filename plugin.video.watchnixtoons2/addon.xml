@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.83" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.84" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.requests"/>
@@ -11,6 +11,9 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.84[/B]
+- Change free domain from wcofun.com wcofun.net
 
 [B]0.83[/B]
 - Fix for potential index out of range issue
