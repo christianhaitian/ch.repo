@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.86" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.87" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,9 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.87[/B]
+- Update user agent
 
 [B]0.86[/B]
 - Update to resolve potential index out range on some devices using Kodi
@@ -156,7 +159,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.76" provider-name="doko/Christian_Haitian">
+    <addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.77" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -168,6 +171,9 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.77[/B]
+- Update user agent and pattern path
 
 [B]1.76[/B]
 - Update to resolve potential index out range on some devices using Kodi
