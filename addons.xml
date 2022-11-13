@@ -15,7 +15,7 @@
     </addon>
 
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.89" provider-name="doko/Christian-Haitian">
+    <addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.88" provider-name="doko/Christian_Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,9 +27,6 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
-
-[B]0.89[/B]
-- ( "" "" "" "" "testing 1" )
 
 [B]0.88[/B]
 - Update cloudflare detection thanks to lolage331
