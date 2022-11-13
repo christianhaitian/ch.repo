@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.88" provider-name="doko/Christian-Haitian">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.88[/B]
+- Update cloudflare detection thanks to lolage331
+
+[B]0.87[/B]
+- Update user agent
+
+[B]0.86[/B]
+- Update to resolve potential index out range on some devices using Kodi
+
+[B]0.85[/B]
+- Updated User Agent and Thumbnail fixes thanks to 0.6.7 update from https://r.nf/r/Addons4Kodi/comments/sqxj50/release_watchnixtoons2_060/
+
+[B]0.84[/B]
+- Change free domain from wcofun.com wcofun.net
+
+[B]0.83[/B]
+- Fix for potential index out of range issue
+
+[B]0.82[/B]
+- Update to fix Cloudflare TLS issue thanks to 0.6.3 update from https://r.nf/r/Addons4Kodi/comments/sqxj50/release_watchnixtoons2_060/
+
+[B]0.81[/B]
+- Fixed lastest episode show thumbnail switch in settings
+
+[B]0.8[/B]
+- Fixed thumbnail scrapes
+- Speed up episode list creation thanks to lpuglia
+
+[B]0.7[/B]
+- Add support for TLS 1.1 and 1.2 thanks to Gujal
+            
+[B]0.6[/B]
+- Update free domain from thewatchcartoononline.tv to wcofun.com
+
+[B]0.5[/B]
+- Added Python 3 compatibility
+- Some minor peformance optimizations
+- Fixed episode title characters
+
+[B]0.4.9.8[/B]
+- Fix ability to be able to resolve premium streaming links for low quality by adding headers during link testing.
+
+[B]0.4.9.7[/B]
+- Fix ability to be able to resolve premium streaming links by adding headers during link testing.
+
+[B]0.4.9.5[/B]
+- Fix premium site streaming that was broken from 0.4.9.4 update.
+
+[B]0.4.9.4[/B]
+- Added a workaround for situations where a latest release is not available on the premium site but is on the free site.
+- Fixed chapter selection for episodes with multiple chapters on the premium site.
+
+[B]0.4.9.3[/B]
+- Add the ability to automatically load art while searching through content.
+
+[B]0.4.9.2[/B]
+- Fixed issue with getting thumbnails due to site certificate issues.
+            
+[B]0.4.9.1[/B]
+- Converted from pickle to cPickle for reading and writing cookie file for premium.
+- Streamlined the code a little and cleaned up some comments
+
+[B]0.4.8.9[/B]
+- Added error handling in cases where the premium stream link gives a connection error instead of a failed response.
+- Added a 10 second timeout for a premiumlink response so that it doesn't sit and wait for a premiumlink in case of slow response.
+
+[B]0.4.8.8[/B]
+- Added ability to automatically switch to a free stream, if available, if the premium stream is having an issue.
+- Disable the requirement to verify SSL connection to streams in case the located servers are having certificate issues.  Should fix linux clients.
+
+[B]0.4.8.7[/B]
+- Fix for favorites from Watchnixtoons when switching from premium to free user and vice versa so favorites do no have to be recreated each time.
+
+[B]0.4.8.6[/B]
+- Stability enhancements to premium user streaming.  Shouldn't error out as much unless the website has no playable sources.
+
+[B]0.4.8.5[/B]
+- Just some documentation cleanup and optimizations
+
+[B]0.4.8.3[/B]
+- Added the ability to use the addon whether a premium user or a free user.
+
+[B]0.4.8.2[/B]
+- Added cookie age check and delete and recreate if over 24 hours old.
+
+[B]0.4.8.1[/B]
+- Modified addon to scrape from premium site with premium account provided by user.
+            
+[B]0.4.8:[/B]
+- Fixed a typo in the addons.xml file (thanks @SerpentDrago!)
+
+[B]0.4.7:[/B]
+- Autoplay setting reinstated.
+- Added an option to show letter thumbnails on the catalog sections. Only useful if you're on a custom Kodi skin.
+- Added a warning whenever a video is blocked from excess traffic.
+
+[B]0.4.6:[/B]
+- Add-on re-enabled. Their site is back to letting free users watch videos.
+- To avoid overwhelming their servers on these COVID-19 quarantine times, the "autoplay highest quality" add-on setting was removed. So when you play a video, you'll always be asked what quality to use.
+
+[B]0.4.5:[/B]
+- Temporary disabling of the add-on. If the source site ever comes back, we can enable it again.
+
+[B]0.4.4:[/B]
+- Added an "About" button to the Trakt tab of the add-on settings, explaining how to use it.
+
+[B]0.4.3:[/B]
+- Fixed the series and episode search.
+
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>screenshot1.jpg</screenshot>
+            <screenshot>screenshot2.png</screenshot>
+            <screenshot>screenshot3.jpg</screenshot>
+            <screenshot>screenshot4.jpg</screenshot>
+        </assets>
+        <description lang="en">
+Watch cartoons and anime from [COLOR orange][B]www.TheWatchCartoonOnline.tv[/B][/COLOR].
+
+Support the WatchCartoonOnline website with a PayPal donation to:
+[COLOR khaki][B]wcohelp@yandex.com[/B][/COLOR]
+
+Add-on by doko.  Premium capability added by Christian-Haitian
+        </description>
+        <platform lang="en">all</platform>
+        <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers. This add-on only scrapes web pages.</disclaimer>
+    </extension>
+</addon>
