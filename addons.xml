@@ -15,7 +15,7 @@
     </addon>
 
 
-<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.91" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2" name="WatchNixtoons2" version="0.92" provider-name="doko/Christian-Haitian">
         <requires>
             <import addon="xbmc.python" version="2.25.0"/>
             <import addon="script.module.requests"/>
@@ -27,6 +27,10 @@
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.92[/B]
+- Fixed list index out of range for latest releases for premium streaming
+- Added ability to show thumbnails for cartoons, subbed, dubbed, and ongoing and popular sections (Thanks to lolage331)
 
 [B]0.91[/B]
 - Fix free streaming to lolage331
