@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.84" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="1.85" provider-name="doko/Christian-Haitian">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
@@ -11,6 +11,9 @@
     <extension point="xbmc.addon.metadata">
         <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]1.85[/B]
+- Update Thumbnail hashes thanks to lolage331
 
 [B]1.84[/B]
 - Fix plugin location in settings
