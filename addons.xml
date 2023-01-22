@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="ch.repo" name="CH Repository" version="1.0" provider-name="Christian Haitian">
+    <addon id="ch.repo" name="CH Repository" version="1.2" provider-name="Christian Haitian">
         <extension point="xbmc.addon.repository" name="CH Repository">
-            <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
+          <dir minversion="18.9.0">
+	    <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/</datadir>
+          </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
+          <dir minversion="18.9.0">
             <summary>CH Kodi Add-ons</summary>
             <description>Add-ons for Kodi</description>
             <disclaimer></disclaimer>
             <platform>all</platform>
+          </dir>
         </extension>
     </addon>
 
