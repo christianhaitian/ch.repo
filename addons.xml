@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="ch.repo" name="CH Repository" version="1.0" provider-name="Christian Haitian">
+    <addon id="ch.repo" name="CH Repository" version="1.2" provider-name="Christian Haitian">
         <extension point="xbmc.addon.repository" name="CH Repository">
 	  <dir>
             <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
