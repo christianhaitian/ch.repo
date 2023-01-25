@@ -2,9 +2,11 @@
 <addons>
     <addon id="ch.repo" name="CH Repository" version="1.0" provider-name="Christian Haitian">
         <extension point="xbmc.addon.repository" name="CH Repository">
+	  <dir>
             <info compressed="false">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/christianhaitian/ch.repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/christianhaitian/</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/christianhaitian/ch.repo/master/</datadir>
+	  </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>CH Kodi Add-ons</summary>
