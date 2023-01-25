@@ -9,10 +9,12 @@
 	  </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
+          <dir minversion="18.9.0">
             <summary>CH Kodi Add-ons</summary>
             <description>Add-ons for Kodi</description>
             <disclaimer></disclaimer>
             <platform>all</platform>
+          </dir>
         </extension>
     </addon>
 
