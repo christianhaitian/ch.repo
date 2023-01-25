@@ -2,7 +2,7 @@
 Various Kodi addons
 
 # How to use:
-Download the ch.repo-1.2.zip file from [here](https://github.com/christianhaitian/ch.repo/raw/master/ch.repo-1.2.zip) and install in Kodi. Then go to "Install from repository" > CH Repository, and install the add-ons you want.
+Download the ch.repo-1.3.zip file from [here](https://github.com/christianhaitian/ch.repo/raw/master/ch.repo-1.3.zip) and install in Kodi. Then go to "Install from repository" > CH Repository, and install the add-ons you want.
 
 # Web Install:
 # http://chrepo.mooo.com
