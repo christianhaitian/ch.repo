@@ -187,7 +187,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.0" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.01" provider-name="doko/Christian-Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -199,6 +199,9 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]2.01[/B]
+- Add missing cloudscraper addon folder
 
 [B]2.0[/B]
 - Updated cloudflare detection for premium login 
@@ -240,7 +243,10 @@ Add-on by doko/Christian_Haitian.
 [B]1.83[/B]
 - Update Thumbnail Hashes thanks to lolage331
 - Update User-agent thanks to lolage331
-- Escape HTML characters in episode title [B]2.0[/B]
+- Escape HTML characters in episode title [B]2.01[/B]
+- Add missing cloudscraper addon folder
+
+[B]2.0[/B]
 - Updated cloudflare detection for premium login 
 - Fixed nixtoons information scraping
 
