@@ -187,7 +187,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.09" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.1" provider-name="doko/Christian-Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -199,6 +199,11 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]2.1[/B]
+- Update domain to wcofun.net
+- Update thumbnail hashes thanks to lolage331
+- Update chapter retrieval technique thanks to lolage331
 
 [B]2.09[/B]
 - Update Thumbnail Hashes thanks to lolage331
@@ -278,7 +283,12 @@ Add-on by doko/Christian_Haitian.
 [B]1.83[/B]
 - Update Thumbnail Hashes thanks to lolage331
 - Update User-agent thanks to lolage331
-- Escape HTML characters in episode title [B]2.09[/B]
+- Escape HTML characters in episode title [B]2.1[/B]
+- Update domain to wcofun.net
+- Update thumbnail hashes thanks to lolage331
+- Update chapter retrieval technique thanks to lolage331
+
+[B]2.09[/B]
 - Update Thumbnail Hashes thanks to lolage331
 - Update User-agent thanks to lolage331
 
