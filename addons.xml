@@ -187,7 +187,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.15" provider-name="doko/Christian-Haitian">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="2.16" provider-name="doko/Christian-Haitian">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
@@ -199,6 +199,11 @@ Add-on by doko/Christian_Haitian.
         <extension point="xbmc.addon.metadata">
             <news>
 [COLOR orange][B]WatchNixtoons2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]2.16[/B]
+- Added workaround new video method thanks to lolage331
+- Updated user agent thanks to lolage331
+- Fixed latest releases
 
 [B]2.15[/B]
 - Add functionality for m3u8 videos thanks to lolage331
@@ -304,7 +309,12 @@ Add-on by doko/Christian_Haitian.
 [B]1.83[/B]
 - Update Thumbnail Hashes thanks to lolage331
 - Update User-agent thanks to lolage331
-- Escape HTML characters in episode title [B]2.15[/B]
+- Escape HTML characters in episode title [B]2.16[/B]
+- Added workaround new video method thanks to lolage331
+- Updated user agent thanks to lolage331
+- Fixed latest releases
+
+[B]2.15[/B]
 - Add functionality for m3u8 videos thanks to lolage331
 - Updated User Agent thanks to lolage331
 - Updated Thumbnail Hashes thanks to lolage331
