@@ -187,7 +187,7 @@ Add-on by doko/Christian_Haitian.
         </extension>
     </addon>
 
-<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="0.16" provider-name="WNT2">
+<addon id="plugin.video.watchnixtoons2.kodi19" name="WatchNixtoons2" version="0.17" provider-name="WNT2">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
